@@ -10,6 +10,10 @@ import javafx.stage.Stage;
 public class RobotApplication extends Application {
     @Override
     public void start(Stage stage) {
+        otvor(stage);
+    }
+
+    public static void otvor(Stage stage) {
         Pane plocha = new Pane();
         plocha.setStyle("-fx-background-color: white;");
         // robot sa nesmie vykreslit mimo plochy
